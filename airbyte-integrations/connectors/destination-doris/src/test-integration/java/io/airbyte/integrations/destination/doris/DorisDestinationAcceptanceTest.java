@@ -123,8 +123,8 @@ public class DorisDestinationAcceptanceTest extends DestinationAcceptanceTest {
         // overrides test with a no-op until we handle full UTF-8 in the destination
     }
 
-    public void testSecondSync() throws Exception {
-        // PubSub cannot overwrite messages, its always append only
-    }
+//    public void testSecondSync() throws Exception {
+//        // PubSub cannot overwrite messages, its always append only
+//    }
 
 }
