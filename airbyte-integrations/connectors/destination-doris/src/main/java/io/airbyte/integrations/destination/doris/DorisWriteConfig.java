@@ -9,26 +9,26 @@ import org.apache.commons.csv.CSVPrinter;
 
 public class DorisWriteConfig {
 
-  private final DorisStreamLoad dorisStreamLoad;
-  private final CSVPrinter writer;
-  private final CSVFormat format;
+    private final DorisStreamLoad dorisStreamLoad;
+    private final CSVPrinter writer;
+    private final CSVFormat format;
 
-  public DorisWriteConfig(DorisStreamLoad dorisStreamLoad, CSVPrinter writer, CSVFormat format) {
-    this.dorisStreamLoad = dorisStreamLoad;
-    this.writer = writer;
-    this.format = format;
-  }
+    public DorisWriteConfig(DorisStreamLoad dorisStreamLoad, CSVPrinter writer, CSVFormat format) {
+        this.dorisStreamLoad = dorisStreamLoad;
+        this.writer = writer;
+        this.format = format;
+    }
 
-  public DorisStreamLoad getDorisStreamLoad() {
-    return dorisStreamLoad;
-  }
+    public DorisStreamLoad getDorisStreamLoad() {
+        return dorisStreamLoad;
+    }
 
-  public CSVFormat getFormat() {
-    return format;
-  }
+    public CSVFormat getFormat() {
+        return format;
+    }
 
-  public CSVPrinter getWriter() {
-    return writer;
-  }
+    public CSVPrinter getWriter() {
+        return writer;
+    }
 
 }
